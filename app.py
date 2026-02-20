@@ -71,16 +71,17 @@ SNOWFALL_HTML = """
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { background: #0b1628; }
+  html, body { background: #0b1628; margin: 0; padding: 8px; }
   body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
     font-family: 'Source Sans Pro', sans-serif;
   }
   .card {
-    width: 620px;
+    width: 100%;
+    max-width: 620px;
     background: linear-gradient(165deg, #0f2044 0%, #162d5a 40%, #1a3568 70%, #0f2044 100%);
     border-radius: 18px;
     overflow: hidden;
@@ -229,6 +230,20 @@ SNOWFALL_HTML = """
   }
   .credit span { color: #8ab4e0; font-weight: 700; }
   .snowflake-icon { font-size: 20px; opacity: 0.4; }
+
+  @media (max-width: 480px) {
+    .header { padding: 20px 18px 6px; }
+    .title { font-size: 24px; letter-spacing: 1px; }
+    .storm-label { font-size: 11px; }
+    .subtitle { font-size: 13px; }
+    .divider { margin: 12px 18px; }
+    .bars-container { padding: 6px 18px 18px; }
+    .bar-label { font-size: 13px; }
+    .bar-label.highlight { font-size: 15px; }
+    .bar-percent { font-size: 18px; }
+    .bar-percent.highlight { font-size: 24px; }
+    .footer { padding: 12px 18px 16px; }
+  }
 </style>
 </head>
 <body>
@@ -303,7 +318,7 @@ st.markdown(
 )
 
 # Render the graphic
-st.components.v1.html(SNOWFALL_HTML, height=520, scrolling=False)
+st.components.v1.html(SNOWFALL_HTML, height=620, scrolling=False)
 
 # Calculate the most recent :X4 time
 def most_recent_x4():
