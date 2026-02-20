@@ -1,6 +1,9 @@
 import streamlit as st
 import time
 from datetime import datetime
+from zoneinfo import ZoneInfo
+
+EST = ZoneInfo("America/New_York")
 
 st.set_page_config(
     page_title="Snowfall Probability – Zack Hennigan",
@@ -304,7 +307,7 @@ st.components.v1.html(SNOWFALL_HTML, height=520, scrolling=False)
 
 # Calculate the most recent :X4 time
 def most_recent_x4():
-    now = datetime.now()
+    now = datetime.now(EST)
     current_min = now.minute
     targets = [54, 44, 34, 24, 14, 4]
     for t in targets:
@@ -321,14 +324,14 @@ def most_recent_x4():
 
 last_x4 = most_recent_x4()
 st.markdown(
-    f'<div class="last-updated">Last updated: {last_x4.strftime("%I:%M %p")}</div>',
+    f'<div class="last-updated">Last updated: {last_x4.strftime("%I:%M %p")} EST</div>',
     unsafe_allow_html=True,
 )
 
 # --- Auto-refresh logic ---
 # Calculate seconds until the next minute ending in :X4
 def seconds_until_next_x4():
-    now = datetime.now()
+    now = datetime.now(EST)
     current_min = now.minute
     current_sec = now.second
 
