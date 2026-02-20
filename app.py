@@ -266,37 +266,37 @@ SNOWFALL_HTML = """
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">Greater than 6 in</span>
-        <span class="bar-percent">21%</span>
+        <span class="bar-percent">30%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:21%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:30%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">3 &ndash; 6 in</span>
-        <span class="bar-percent">26%</span>
+        <span class="bar-label highlight">3 &ndash; 6 in</span>
+        <span class="bar-percent highlight">46%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:26%;"></div></div>
+      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:46%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label highlight">1 &ndash; 3 in</span>
-        <span class="bar-percent highlight">35%</span>
+        <span class="bar-label">1 &ndash; 3 in</span>
+        <span class="bar-percent">16%</span>
       </div>
-      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:35%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:16%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">A coating to an inch</span>
-        <span class="bar-percent">15%</span>
+        <span class="bar-percent">7%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:15%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:7%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">Little to no accumulation</span>
-        <span class="bar-percent">3%</span>
+        <span class="bar-percent">1%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:3%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:1%;"></div></div>
     </div>
   </div>
   <div class="footer">
