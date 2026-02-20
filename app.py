@@ -273,9 +273,9 @@ SNOWFALL_HTML = """
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">6 &ndash; 10 in</span>
-        <span class="bar-percent">16%</span>
+        <span class="bar-percent">24%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:16%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:24%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
@@ -294,9 +294,9 @@ SNOWFALL_HTML = """
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">Less than 1 in</span>
-        <span class="bar-percent">7%</span>
+        <span class="bar-percent">3%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:7%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:3%;"></div></div>
     </div>
   </div>
   <div class="footer">
