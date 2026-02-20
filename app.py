@@ -287,9 +287,9 @@ SNOWFALL_HTML = """
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">1 &ndash; 3 in</span>
-        <span class="bar-percent">10%</span>
+        <span class="bar-percent">8%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:10%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:8%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
