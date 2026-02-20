@@ -265,38 +265,38 @@ SNOWFALL_HTML = """
   <div class="bars-container">
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">Greater than 6 in</span>
-        <span class="bar-percent">30%</span>
+        <span class="bar-label">Greater than 10 in</span>
+        <span class="bar-percent">4%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:30%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:4%;"></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label-row">
+        <span class="bar-label">6 &ndash; 10 in</span>
+        <span class="bar-percent">8%</span>
+      </div>
+      <div class="bar-track"><div class="bar-fill" style="width:8%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label highlight">3 &ndash; 6 in</span>
-        <span class="bar-percent highlight">46%</span>
+        <span class="bar-percent highlight">71%</span>
       </div>
-      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:46%;"></div></div>
+      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:71%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">1 &ndash; 3 in</span>
-        <span class="bar-percent">16%</span>
+        <span class="bar-percent">10%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:16%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:10%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">A coating to an inch</span>
+        <span class="bar-label">Less than 1 in</span>
         <span class="bar-percent">7%</span>
       </div>
       <div class="bar-track"><div class="bar-fill" style="width:7%;"></div></div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label-row">
-        <span class="bar-label">Little to no accumulation</span>
-        <span class="bar-percent">1%</span>
-      </div>
-      <div class="bar-track"><div class="bar-fill" style="width:1%;"></div></div>
     </div>
   </div>
   <div class="footer">
