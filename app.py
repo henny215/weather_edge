@@ -33,6 +33,27 @@ st.markdown(
         font-size: 12px;
         margin-top: 8px;
     }
+    .on-the-fours {
+        text-align: center;
+        font-family: sans-serif;
+        margin-bottom: 12px;
+    }
+    .on-the-fours .tagline {
+        font-size: 22px;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .on-the-fours .tagline span {
+        color: #6eaaef;
+    }
+    .on-the-fours .sub {
+        font-size: 12px;
+        color: #5a8ec2;
+        letter-spacing: 1px;
+        margin-top: 2px;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -269,13 +290,38 @@ SNOWFALL_HTML = """
 </html>
 """
 
+# "On The 4's" banner
+st.markdown(
+    '<div class="on-the-fours">'
+    '<div class="tagline">❄️ Weather <span>On The 4\'s</span> ❄️</div>'
+    '<div class="sub">Auto-updated every :04 · :14 · :24 · :34 · :44 · :54</div>'
+    '</div>',
+    unsafe_allow_html=True,
+)
+
 # Render the graphic
 st.components.v1.html(SNOWFALL_HTML, height=520, scrolling=False)
 
-# Show last-updated timestamp
-now = datetime.now()
+# Calculate the most recent :X4 time
+def most_recent_x4():
+    now = datetime.now()
+    current_min = now.minute
+    targets = [54, 44, 34, 24, 14, 4]
+    for t in targets:
+        if current_min >= t:
+            return now.replace(minute=t, second=0, microsecond=0)
+    # Current minute is 0-3, so most recent was :54 of previous hour
+    prev_hour = now.replace(second=0, microsecond=0)
+    prev_hour = prev_hour.replace(minute=54)
+    if now.hour == 0:
+        prev_hour = prev_hour.replace(hour=23)
+    else:
+        prev_hour = prev_hour.replace(hour=now.hour - 1)
+    return prev_hour
+
+last_x4 = most_recent_x4()
 st.markdown(
-    f'<div class="last-updated">Last refreshed: {now.strftime("%I:%M:%S %p")}</div>',
+    f'<div class="last-updated">Last updated: {last_x4.strftime("%I:%M %p")}</div>',
     unsafe_allow_html=True,
 )
 
