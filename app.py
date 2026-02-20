@@ -280,9 +280,9 @@ SNOWFALL_HTML = """
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label highlight">3 &ndash; 6 in</span>
-        <span class="bar-percent highlight">63%</span>
+        <span class="bar-percent highlight">53%</span>
       </div>
-      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:63%;"></div></div>
+      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:53%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
