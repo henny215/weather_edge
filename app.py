@@ -266,37 +266,37 @@ SNOWFALL_HTML = """
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">Greater than 6 in</span>
-        <span class="bar-percent">18%</span>
+        <span class="bar-percent">21%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:18%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:21%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">3 &ndash; 6 in</span>
-        <span class="bar-percent">25%</span>
+        <span class="bar-percent">26%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:25%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:26%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label highlight">1 &ndash; 3 in</span>
-        <span class="bar-percent highlight">38%</span>
+        <span class="bar-percent highlight">35%</span>
       </div>
-      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:38%;"></div></div>
+      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:35%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">A coating to an inch</span>
-        <span class="bar-percent">14%</span>
+        <span class="bar-percent">15%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:14%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:15%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
         <span class="bar-label">Little to no accumulation</span>
-        <span class="bar-percent">5%</span>
+        <span class="bar-percent">3%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:5%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:3%;"></div></div>
     </div>
   </div>
   <div class="footer">
