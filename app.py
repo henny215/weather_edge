@@ -265,38 +265,38 @@ SNOWFALL_HTML = """
   <div class="bars-container">
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">Greater than 10 in</span>
-        <span class="bar-percent">12%</span>
+        <span class="bar-label">Greater than 14 in</span>
+        <span class="bar-percent">9%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:12%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:9%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">6 &ndash; 10 in</span>
-        <span class="bar-percent">24%</span>
+        <span class="bar-label">10 &ndash; 14 in</span>
+        <span class="bar-percent">14%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:24%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:14%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label highlight">3 &ndash; 6 in</span>
-        <span class="bar-percent highlight">53%</span>
+        <span class="bar-label highlight">6 &ndash; 10 in</span>
+        <span class="bar-percent highlight">61%</span>
       </div>
-      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:53%;"></div></div>
+      <div class="bar-track highlight"><div class="bar-fill highlight" style="width:61%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">1 &ndash; 3 in</span>
-        <span class="bar-percent">8%</span>
+        <span class="bar-label">3 &ndash; 6 in</span>
+        <span class="bar-percent">9%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:8%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:9%;"></div></div>
     </div>
     <div class="bar-row">
       <div class="bar-label-row">
-        <span class="bar-label">Less than 1 in</span>
-        <span class="bar-percent">3%</span>
+        <span class="bar-label">Less than 3 in</span>
+        <span class="bar-percent">7%</span>
       </div>
-      <div class="bar-track"><div class="bar-fill" style="width:3%;"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:7%;"></div></div>
     </div>
   </div>
   <div class="footer">
